@@ -4,7 +4,7 @@ import styles from '../styles/projectCard.module.scss';
 import TProject from '../types/project';
 
 function ProjectCard() {
-    const [projects, setProjects] = useState<TProject[]>(projectsList);
+    const [projects] = useState<TProject[]>(projectsList);
 
     const handleOnClick = (page: TProject): void => {
         window.open(page.url, "_blank");
