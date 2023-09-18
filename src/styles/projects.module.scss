@@ -1,0 +1,32 @@
+@import './colors';
+
+.section {
+    display: flex;
+    flex-direction: column;
+
+    margin: 112px 140px 140px 140px;
+
+    .strong {
+        margin-bottom: 100px;
+    }
+
+    .projects-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .section {
+        margin: 50px 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 970px) {
+    .section {
+        margin: 100px 140px;
+    }
+}

@@ -1,0 +1,141 @@
+@import './colors';
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px;
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+        strong {
+            color: $purple-fifty-opacity;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+        }
+
+        .whats-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+
+            border: 1px solid $purple-fifty-opacity;
+            border-radius: 16px;
+
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+
+            &:hover {
+                transform: scale(105%);
+                opacity: 0.7;
+            }
+        }
+
+        .email-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            .p {
+                color: $white-fifty-opacity;
+                font-size: 1.3em;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            img:last-child {
+                margin-top: 16px;
+
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(110%);
+                    opacity: 0.7;
+                }
+            }
+        }
+
+    }
+
+    .back-to-the-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        margin-top: 30px;
+
+        text-decoration: none;
+
+        cursor: pointer;
+
+        strong {
+            color: $purple-fifty-opacity;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.7rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        &:hover {
+            transform: scale(110%);
+            opacity: 0.7;
+        }
+    }
+
+    .notify {
+        background-color: $primary;
+        border: 1px solid $purple-fifty-opacity;
+
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .section {
+        margin: 38px 30px !important;
+
+        .contact-container {
+            gap: 50px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+
+        .email-container {
+            .p {
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1700px) {
+    section {
+        margin: 50px;
+    }
+}

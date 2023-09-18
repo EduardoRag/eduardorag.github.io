@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Cubos Flix",
+        "description": "Aplicação de um serviço de streaming da Cubos Academy. Desenvolvido com JavaScript.",
+        "stacks": [
+            "JavaScript"
+        ],
+        "img": "https://camo.githubusercontent.com/6b4dd752130056b68371bf1d3002599fd80a79bd7bb7054405e254ec0a7d1fb7/68747470733a2f2f692e696d6775722e636f6d2f523172664863312e706e67",
+        "url": "https://github.com/EduardoRag/projeto-CubosFlix"
+    },
+    {
+        "name": "Store",
+        "description": "Aplicação de uma loja da Cubos Academy. Desenvolvido com React e TypeScript e SASS.",
+        "stacks": [
+            "TypeScript",
+            "SASS"
+        ],
+        "img": "https://camo.githubusercontent.com/7e8db4f39c55530f941726b175f3401b8928f3039fc682c47db5628a2e4e610d/68747470733a2f2f692e696d6775722e636f6d2f356f534e6978502e706e67",
+        "url": "https://github.com/EduardoRag/Store-TypeScript"
+    },
+    {
+        "name": "Mini Instagram",
+        "description": "Uma mini API baseada no instagram contendo algumas funcionalidades como cadastro, login, etc... ",
+        "stacks": [
+            "JavaScript"
+        ],
+        "img": "https://www.akana.com/sites/default/files/image/2019-06/image-blog-getting-most-api-management-600x400.jpg",
+        "url": "https://github.com/EduardoRag/API-mini-instagram"
+    }
+]

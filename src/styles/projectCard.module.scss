@@ -1,0 +1,145 @@
+@import './colors';
+
+.card-main-div {
+    display: flex;
+    flex-direction: column;
+
+    width: 360px;
+    height: 460px;
+
+    padding: 30px;
+
+    border-radius: 16px;
+    border: 1px solid $purple-fifty-opacity;
+
+    margin-bottom: 30px;
+
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(101%);
+        background-color: $purple-ten-opacity;
+    }
+
+    h2 {
+        margin-bottom: 9px;
+    }
+
+    .p {
+        width: 100%;
+        height: 100px;
+
+        // margin-bottom: 21px;
+
+        color: $white-fifty-opacity;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .project-stacks {
+        display: flex;
+        gap: 8px;
+
+        margin-bottom: 22px;
+
+        strong {
+            padding: 8px 15px;
+
+            border-radius: 8px;
+            background-color: $purple-ten-opacity;
+
+
+            color: $purple-primary;
+            text-align: center;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .img {
+        height: 200px;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card-main-div {
+        width: 300px;
+        height: 390px;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        .project-stacks {
+            margin-bottom: 18px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 970px) {
+    .card-main-div {
+        width: 300px;
+        height: 390px;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        .project-stacks {
+            margin-bottom: 18px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 971px) and (max-width: 1080px) {
+    .card-main-div {
+        width: 300px;
+        height: 390px;
+
+        h2 {
+            font-size: 2.0rem;
+        }
+
+        .project-stacks {
+            margin-bottom: 18px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1500px) {
+    .card-main-div {
+        width: 300px;
+        height: 390px;
+
+        h2 {
+            font-size: 2.0rem;
+        }
+
+        .project-stacks {
+            margin-bottom: 18px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+}

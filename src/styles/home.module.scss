@@ -1,0 +1,13 @@
+@import './colors';
+
+.main-container {
+  height: 100%;
+
+  background-color: $primary;
+
+  color: white;
+}
+
+.line {
+  border: 1px solid $purple-twenty-opacity;
+}
