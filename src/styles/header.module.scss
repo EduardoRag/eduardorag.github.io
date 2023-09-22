@@ -172,6 +172,85 @@
     }
 }
 
+@media (max-width: 480px) {
+    header {
+        position: relative;
+        height: 100vh !important;
+
+        padding: 38px 30px !important;
+
+
+        nav {
+            display: none !important;
+        }
+
+        .header-content {
+            flex-direction: column;
+            align-items: normal !important;
+            margin-top: 70px !important;
+
+            .header-user-div {
+                order: 2;
+
+                strong {
+                    align-self: flex-start;
+                    font-size: 1.4rem;
+
+                    margin: 76px 0 16px 0 !important;
+                }
+
+                span {
+                    font-size: 1.8rem !important;
+                }
+            }
+
+            .stacks-div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                top: 32px;
+                right: 50%;
+                left: 50%;
+                position: absolute;
+
+                img {
+                    width: 32px;
+                }
+            }
+
+            .avatar {
+                order: 1;
+                width: 350px !important;
+
+                margin-left: -7px;
+            }
+
+            .contact-div {
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+
+                order: 3;
+
+                .download-cv-div {
+                    margin: 0 !important;
+                }
+
+                .whats-div {
+                    padding: 12px 10px !important;
+                    border-radius: 10px !important;
+
+                    img {
+                        width: 20px !important;
+                        height: 20px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
     header {
         height: 480px !important;
