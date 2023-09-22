@@ -68,6 +68,25 @@
     }
 }
 
+@media (max-width: 480px) {
+    .card-main-div {
+        width: 100%;
+        height: 400px;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        .project-stacks {
+            margin-bottom: 18px !important;
+
+            strong {
+                font-size: 1.2rem !important;
+            }
+        }
+    }
+}
+
 @media (min-width: 481px) and (max-width: 768px) {
     .card-main-div {
         width: 300px;

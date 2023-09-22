@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
 
-    margin: 112px 140px 140px 140px;
+    padding: 38px 30px !important;
 
     .strong {
         margin-bottom: 100px;
@@ -16,6 +16,26 @@
         flex-wrap: wrap;
 
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 0 !important;
+        margin: calc(70px - 38px) 30px 38px 30px;
+
+        strong {
+            font-size: 2.4rem;
+            margin-bottom: 50px;
+        }
+
+        .projects-container {
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            overflow-x: scroll;
+
+            gap: 16px;
+        }
     }
 }
 
