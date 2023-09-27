@@ -109,8 +109,11 @@
         }
 
         .avatar {
-            max-width: 556px;
-            max-height: 515px;
+            img {
+                max-width: 556px;
+                max-height: 515px;
+
+            }
         }
 
         .contact-div {
@@ -175,7 +178,7 @@
 @media (max-width: 480px) {
     header {
         position: relative;
-        height: 100vh !important;
+        height: 85vh !important;
 
         padding: 38px 30px !important;
 
@@ -220,6 +223,7 @@
             }
 
             .avatar {
+                align-self: center;
                 order: 1;
                 width: 350px !important;
 
@@ -312,7 +316,7 @@
 
 @media (min-width: 769px) and (max-width: 970px) {
     header {
-        height: 650px !important;
+        height: 500px !important;
 
         nav {
             padding: 10px 15px !important;
