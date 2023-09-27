@@ -1,1 +1,0 @@
-# Welcome, this is my portfolio and this project is still a working in progress..
